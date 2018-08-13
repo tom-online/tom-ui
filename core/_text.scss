@@ -1,0 +1,65 @@
+
+
+
+/* ---------------------------------
+ * Alignment
+ * --------------------------------- */
+
+.text-align{
+
+  &__left{
+    text-align: left;
+  }
+
+  &__right{
+    text-align: right;
+  }
+
+  &__center{
+    text-align: center;
+  }
+
+  &__justify{
+    text-align: justify;
+  }
+
+}
+
+/* ---------------------------------
+ * Case
+ * --------------------------------- */
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.lowercase{
+  text-transform: lowercase;
+}
+
+.capitalize{
+  text-transform: capitalize;
+}
+
+/* ---------------------------------
+ * Decoration
+ * --------------------------------- */
+.underline{
+  text-decoration: underline;
+}
+
+.no-decoration{
+  text-decoration: none;
+}
+
+/* ---------------------------------
+ * Font Styles
+ * --------------------------------- */
+.italics{
+  font-style: italic;
+}
+
+.bold{
+  font-weight: bold;
+}
+

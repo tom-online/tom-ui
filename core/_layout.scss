@@ -1,0 +1,182 @@
+
+/* ---------------------------------
+ * Position
+ * --------------------------------- */
+.position {
+
+  &__fixed {
+    position: fixed;
+  }
+
+  &__relative {
+    position: relative;
+  }
+
+  &__absolute {
+    position: absolute;
+  }
+
+  &__static {
+    position: static;
+  }
+
+}
+
+/* ---------------------------------
+ * Display
+ * --------------------------------- */
+.display{
+
+  &__flex{
+    display: flex;
+  }
+
+  &__block{
+    display: block;
+  }
+
+  &__inline-block{
+    display: inline-block;
+  }
+
+  &__none{
+    display: none;
+  }
+
+}
+
+/* ---------------------------------
+ * Float
+ * --------------------------------- */
+.float{
+
+  &__left{
+    float: left;
+  }
+
+  &__right{
+    float: right;
+  }
+
+  &__none{
+    float: none;
+  }
+
+}
+
+/* ---------------------------------
+ * Flex
+ * --------------------------------- */
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.flex-direction {
+
+  &__row {
+    flex-direction: row;
+  }
+  &__row-reverse {
+    flex-direction: row-reverse;
+  }
+  &__column {
+    flex-direction: column;
+  }
+  &__column-reverse {
+    flex-direction: column-reverse;
+  }
+
+}
+
+.justify {
+
+  &__center {
+    justify-content: center;
+  }
+  &__around {
+    justify-content: space-around;
+  }
+  &__between {
+    justify-content: space-between;
+  }
+  &__start {
+    justify-content: flex-start;
+  }
+  &__end {
+    justify-content: flex-end;
+  }
+
+}
+
+
+/* ---------------------------------
+ * Overflow
+ * --------------------------------- */
+
+.overflow {
+
+  &__hidden {
+    overflow: hidden;
+  }
+
+  &__auto {
+    overflow: auto;
+  }
+
+  &__scroll {
+    overflow: scroll;
+  }
+
+}
+
+
+
+/* ---------------------------------
+ * Z-index
+ * --------------------------------- */
+
+.z-index {
+
+  &__1 {
+    position: relative;
+    z-index: 1;
+  }
+  &__2 {
+    position: relative;
+    z-index: 2;
+  }
+  &__3 {
+    position: relative;
+    z-index: 3;
+  }
+  &__4 {
+    position: relative;
+    z-index: 4;
+  }
+  &__5 {
+    position: relative;
+    z-index: 5;
+  }
+  &__6 {
+    position: relative;
+    z-index: 6;
+  }
+  &__7 {
+    position: relative;
+    z-index: 7;
+  }
+  &__8 {
+    position: relative;
+    z-index: 8;
+  }
+  &__9 {
+    position: relative;
+    z-index: 9;
+  }
+  &__10 {
+    position: relative;
+    z-index: 10;
+  }
+
+}
